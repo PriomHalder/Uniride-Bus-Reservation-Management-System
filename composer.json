@@ -1,0 +1,15 @@
+{
+    "name": "uniride/bus-reservation",
+    "description": "UniRide — multi-university bus ticket booking & transport management system (PHP + MySQL).",
+    "type": "project",
+    "license": "proprietary",
+    "require": {
+        "php": ">=8.1",
+        "ext-pdo": "*",
+        "ext-pdo_mysql": "*",
+        "ext-mbstring": "*"
+    },
+    "config": {
+        "platform-check": false
+    }
+}

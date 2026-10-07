@@ -1,0 +1,14 @@
+# Local secrets / env — never commit real credentials
+.env
+
+# Uploaded profile pictures (user content, not source)
+uploads/profile/*
+!uploads/profile/.htaccess
+!uploads/profile/index.html
+
+# OS / editor junk
+.DS_Store
+Thumbs.db
+*.log
+.vscode/
+.idea/
